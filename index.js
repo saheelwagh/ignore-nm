@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const FS = require("fs");
 
-FS.writeFileSync(".gitignore", "node-modules");
+exports.ignore_nm = () => FS.writeFileSync(".gitignore", "node-modules");

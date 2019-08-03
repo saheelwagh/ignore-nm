@@ -1,0 +1,27 @@
+{
+  "name": "ignore-nm",
+  "version": "1.0.0",
+  "description": "A simple module that creates a .gitingore file with node_modules written inside it. Install this globally and run in your project's root folder ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ignore-nm": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saheelwagh/ignore-nm.git"
+  },
+  "keywords": [
+    "git",
+    "node",
+    "modules"
+  ],
+  "author": "Saheel Wagh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saheelwagh/ignore-nm/issues"
+  },
+  "homepage": "https://github.com/saheelwagh/ignore-nm#readme"
+}
